@@ -5,9 +5,9 @@ const WhatIsReefs = () => {
   return (
     <div
       className="p-5 text-start text-white mt-5 position-relative border-0 shadow overlay-two"
-      style={{ borderRadius: 20}}
+      style={{ borderRadius: 20 }}
     >
-      <div >
+      <div>
         <div
           className="fw-bold d-inline-block mb-2"
           style={{ color: "#73A5B0" }}
@@ -17,8 +17,8 @@ const WhatIsReefs = () => {
         <div className="d-flex">
           <div className="illustration">
             <h2 style={{ color: "#125362" }}>
-              Leveraging the culture of online community to drive visibility,
-              growth and sales for businesses
+              Reefs is a digital marketing agency that seeks to give growth and
+              visibility to brands
             </h2>
             <div className="mt-4">
               <DonateButton />
