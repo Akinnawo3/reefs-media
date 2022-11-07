@@ -44,7 +44,7 @@ const DonateModal = () => {
           NotificationManager.error(json.message);
         }
       })
-      .catch((err) => NotificationManager.error(err?.message.error))
+      .catch((err) => NotificationManager.error(err?.message))
       .finally(() => {
         // alert("Yeaaaaaa");
         setLoading(false);
