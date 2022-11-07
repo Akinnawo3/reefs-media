@@ -7,6 +7,7 @@ const ModalContextProvider = ({ children }) => {
   return (
     <ModalContext.Provider
       value={{isOpen, setIsOpen}}
+    //   value={{isOpen, setIsOpen}}
     >
       {children}
     </ModalContext.Provider>
