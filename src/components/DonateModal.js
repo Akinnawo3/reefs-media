@@ -183,7 +183,7 @@ const DonateModal = () => {
                 <span className="me-2 lv-ivon">
                   <img
                     alt="dn-icon"
-                    src="/images/dn-love.png"
+                    src="images/dn-love.png"
                     height="25px"
                     width="25px"
                   />
