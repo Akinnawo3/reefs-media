@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reefs-media/static/css/main.cff510da.css",
+    "main.js": "/reefs-media/static/js/main.198b1bb4.js",
+    "static/js/787.ecd9ec48.chunk.js": "/reefs-media/static/js/787.ecd9ec48.chunk.js",
+    "static/media/b-d-2.png": "/reefs-media/static/media/b-d-2.c50aba26b79e4226c2d5.png",
+    "static/media/b-d-3.png": "/reefs-media/static/media/b-d-3.284eb1d262b0529e2591.png",
+    "static/media/b-d.png": "/reefs-media/static/media/b-d.e6fb5842c844cdcfb9dd.png",
+    "static/media/line.png": "/reefs-media/static/media/line.fa4309eaf320772e6a6c.png",
+    "static/media/notification.svg?s3g3t9": "/reefs-media/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/logo.svg": "/reefs-media/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/notification.eot": "/reefs-media/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/reefs-media/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/reefs-media/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "index.html": "/reefs-media/index.html",
+    "main.cff510da.css.map": "/reefs-media/static/css/main.cff510da.css.map",
+    "main.198b1bb4.js.map": "/reefs-media/static/js/main.198b1bb4.js.map",
+    "787.ecd9ec48.chunk.js.map": "/reefs-media/static/js/787.ecd9ec48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cff510da.css",
+    "static/js/main.198b1bb4.js"
+  ]
+}
