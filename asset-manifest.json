@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reefs-media/static/css/main.cff510da.css",
-    "main.js": "/reefs-media/static/js/main.afe32a5f.js",
+    "main.js": "/reefs-media/static/js/main.48681c60.js",
     "static/js/787.ecd9ec48.chunk.js": "/reefs-media/static/js/787.ecd9ec48.chunk.js",
     "static/media/b-d-2.png": "/reefs-media/static/media/b-d-2.c50aba26b79e4226c2d5.png",
     "static/media/b-d-3.png": "/reefs-media/static/media/b-d-3.284eb1d262b0529e2591.png",
@@ -14,11 +14,11 @@
     "static/media/notification.ttf?s3g3t9": "/reefs-media/static/media/notification.c5d9251ea82e42f75381.ttf",
     "index.html": "/reefs-media/index.html",
     "main.cff510da.css.map": "/reefs-media/static/css/main.cff510da.css.map",
-    "main.afe32a5f.js.map": "/reefs-media/static/js/main.afe32a5f.js.map",
+    "main.48681c60.js.map": "/reefs-media/static/js/main.48681c60.js.map",
     "787.ecd9ec48.chunk.js.map": "/reefs-media/static/js/787.ecd9ec48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cff510da.css",
-    "static/js/main.afe32a5f.js"
+    "static/js/main.48681c60.js"
   ]
 }
