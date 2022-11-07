@@ -1,0 +1,127 @@
+.App {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin: 0 10px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    margin: 0 13% !important;
+  }
+}
+.vision {
+  background: url("../public/images/vision-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom right;
+  background-size: 70px 70px;
+
+  /* background-position: ; */
+}
+.d-btn {
+  box-shadow: 0px 14px 35px 4px rgba(226, 123, 4, 0.2);
+  border-radius: 10px;
+}
+.d-btn > button:hover {
+  background-color: #e71d35 !important;
+  .lv-ivon {
+    transform: rotate(20deg);
+  }
+}
+
+.countdown {
+  background: url("../public/images/countdown-bg-1.png"),
+    url("../public/images/countdown-bg-2.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left, bottom right;
+  background-size: 100px 100px;
+}
+
+.f-card {
+  /* background-color: #16697b; */
+  background: url("../public/images/line.png"), url("../public/images/b-d.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center, bottom right;
+  background-size: auto, 220px 220px;
+}
+
+.overlay-one {
+  background: url("../public/images/b-d-2.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom right;
+  background-size: 90% 100%;
+}
+.overlay-two {
+  background: url("../public/images/b-d-3.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom right;
+  background-size: 60% 100%;
+}
+
+.illustration {
+  width: 60% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .f-card {
+    background-size: auto, 150px 150px;
+  }
+  .illustration {
+    width: 100% !important;
+  }
+
+  .overlay-one {
+    background: url("../public/images/b-d-2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom right;
+    background-size: 60% 60%;
+  }
+  .overlay-two {
+    background: url("../public/images/b-d-3.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom right;
+    background-size: 50% 45%;
+  }
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.form-check-input:checked {
+  background-color: #f9931d !important;
+  border-color: #f9931d !important;
+}
