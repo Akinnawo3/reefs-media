@@ -14,7 +14,9 @@ import { BsPhone } from "react-icons/bs";
 import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { NotificationManager } from "react-notifications";
 const DonateModal = () => {
-  const { isOpen, setIsOpen } = useContext(ModalContext);
+  const { isOpen, setIsOpen, accModalOpen, setAccModalOpen } =
+    useContext(ModalContext);
+
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({});
 
