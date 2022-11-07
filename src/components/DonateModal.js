@@ -12,13 +12,44 @@ import { ModalContext } from "../contexts/modalContext";
 import { FaRegUser } from "react-icons/fa";
 import { BsPhone } from "react-icons/bs";
 import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
+import { NotificationManager } from "react-notifications";
 const DonateModal = () => {
   const { isOpen, setIsOpen } = useContext(ModalContext);
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({});
+
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    setLoading(true);
+    fetch(`https://api.rollace.org/eve/birthday`, {
+      method: "POST",
+      body: JSON.stringify({
+        name: formData?.name,
+        email: formData?.email,
+        phone_number: formData?.phoneNumber,
+      }),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json);
+        if (json.status === "success") {
+          setFormData({});
+          setIsOpen(false);
+          NotificationManager.success(json.message);
+        }
+        if (json.status === "error") {
+          NotificationManager.error(json.message);
+        }
+      })
+      .catch((err) => NotificationManager.error(err?.message.error))
+      .finally(() => {
+        // alert("Yeaaaaaa");
+        setLoading(false);
+        setFormData({});
+      });
   };
   const onChange = (e) => {
     setFormData((prevState) => ({

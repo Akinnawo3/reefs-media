@@ -7,10 +7,12 @@ import reportWebVitals from "./reportWebVitals";
 import "animate.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "react-notifications/lib/notifications.css";
+import { NotificationContainer } from "react-notifications";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <NotificationContainer />
     <App />
   </React.StrictMode>
 );
