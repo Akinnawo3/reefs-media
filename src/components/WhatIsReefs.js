@@ -17,7 +17,7 @@ const WhatIsReefs = () => {
         <div className="d-flex">
           <div className="illustration">
             <h2 style={{ color: "#125362" }}>
-              Reefs is a digital marketing agency that seeks to give growth and
+              Reefs is a digital marketing agency that seeks to drive growth and
               visibility to brands
             </h2>
             <div className="mt-4">
