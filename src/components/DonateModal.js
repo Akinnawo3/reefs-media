@@ -38,10 +38,13 @@ const DonateModal = () => {
       .then((response) => response.json())
       .then((json) => {
         console.log(json);
-        if (json.status === "success") {
+        if (json?._id) {
           setFormData({});
           setIsOpen(false);
-          NotificationManager.success(json.message);
+          NotificationManager.success(
+            "Awwww, thank you my friend for signing up 😍, now send me money ."
+          );
+          setAccModalOpen(true);
         }
         if (json.status === "error") {
           NotificationManager.error(json.message);

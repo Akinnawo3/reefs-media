@@ -9,12 +9,14 @@ import WhatIsReefs from "./components/WhatIsReefs";
 import { useState } from "react";
 import ModalContextProvider from "./contexts/modalContext";
 import DonateModal from "./components/DonateModal";
+import AccountDetailsModal from "./components/AccountDetailsModal";
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
   return (
     <ModalContextProvider>
       <DonateModal />
+      <AccountDetailsModal />
       <div className="App ">
         <div className="mt-5">
           <Logo />
@@ -36,4 +38,3 @@ function App() {
 
 export default App;
 // export default App;
-
