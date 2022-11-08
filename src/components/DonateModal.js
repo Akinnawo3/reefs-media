@@ -23,12 +23,13 @@ const DonateModal = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    fetch(`https://api.rollace.org/eve/birthday`, {
+    fetch(`https://eve-birthday.herokuapp.com/`, {
       method: "POST",
       body: JSON.stringify({
         name: formData?.name,
-        email: formData?.email,
-        phone_number: formData?.phoneNumber,
+        phone: formData?.phoneNumber,
+        has_business: formData?.haveBusiness === "yes" ? "1" : "0",
+        email: "kvui10@gmail.com",
       }),
       headers: {
         "Content-type": "application/json; charset=UTF-8",
